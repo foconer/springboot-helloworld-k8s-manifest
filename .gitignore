@@ -1,0 +1,14 @@
+target/
+build/
+.idea/
+*.iml
+.classpath, .project, .settings/
+.vscode/
+*.iws, *.ipr
+*.jar, *.war, *.ear
+*.swp
+*.class
+.gradle/
+bin/
+.DS_Store
+build.log
