@@ -15,12 +15,12 @@ Deployment Instruction
   - docker container ls (check to see that minikube container is running)
   - kubectl get nodes (check that a nodes exists)
 * Clone this repository
-* Go to Terminal and run the following commands
+* Open a terminal and run the following commands
   - kubectl apply -f deployment.yaml
   - kubectl apply -f service.yaml
-* Check that pods and a service are created
+* Check that the pods and the service are successfully created
   - kubectl get pods
   - kubectl get svc
-* If using MacOS, a minikube tunnel is need to access the springboot-helloworld instance
+* On macOS, running minikube tunnel is required to access the springboot-app service
   - minikube service springboot-service
   - Use the tunnel URL to access the application, generated URL example http://127.0.0.1:52883)
