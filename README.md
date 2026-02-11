@@ -14,8 +14,10 @@ Deployment Instruction
 * Start Docker and Minikube, then verify using the following commands
   - docker container ls (check to see that minikube container is running)
   - kubectl get nodes (check that a nodes exists)
-* Clone this repository
-* Open a terminal and run the following commands
+* Open a terminal
+  - Clone this repository
+  - Go to the project directory
+* Run the following commands to deploy the Kubernetes manifests
   - kubectl apply -f deployment.yaml
   - kubectl apply -f service.yaml
 * Check that the pods and the service are successfully created
