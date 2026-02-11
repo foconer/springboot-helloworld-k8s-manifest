@@ -1,9 +1,9 @@
 # springboot-helloworld-k8s-manifest
 
-This project contains K8s manifest yaml files to deploy springboot-helloworld to Kubernetes. These files was applied to minikube as an example.
-The springboot-helloworld image is found in docker hub https://hub.docker.com/r/foconer/springboot-helloworld. 
+This project includes Kubernetes manifest YAML files for deploying springboot-helloworld to Kubernetes. The manifests were tested using Minikube as an example environment.
+The Docker image springboot-helloworld is hosted on Docker Hub: https://hub.docker.com/r/foconer/springboot-helloworld
 
-This was tested in MacOS Sequoia 15, Docker Desktop, minikube v1.38.0
+This project was tested on macOS Sequoia 15 using Docker Desktop and Minikube v1.38.0
 
 Prerequisite (local deployment)
 
@@ -11,7 +11,7 @@ Prerequisite (local deployment)
 * Install minikube
 
 Deployment Instruction
-* Start docker and minikube, check with commands
+* Start Docker and Minikube, then verify using the following commands
   - docker container ls (check to see that minikube container is running)
   - kubectl get nodes (check that a nodes exists)
 * Clone this repository
